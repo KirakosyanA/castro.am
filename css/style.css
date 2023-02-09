@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
 *{
     margin: 0;
     padding: 0;
@@ -137,12 +139,6 @@ a{
     border-radius: 15px;
 }
 
-.menu ul li p1{
-    transition: width 2s, height 2s, transform 1s;
-}
-.menu ul li p1:hover{
-    transform: rotate(90deg);
-}
 
 @keyframes hello {
     0%{opacity: 0;}
@@ -420,17 +416,17 @@ ul a:hover{
 
     z-index: 99;
 
-    transform-origin: 4px 0px;
+    transform-origin: 4px;
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 .menu7 span:first-child {
-    transform-origin: 0% 0%;
+    transform-origin: 0 0;
 }
 
 .menu7 span:nth-last-child(2) {
-    transform-origin: 0% 100%;
+    transform-origin: 0 100%;
 }
 
 
@@ -466,7 +462,7 @@ ul a:hover{
     -webkit-font-smoothing: antialiased;
     z-index: 9;
 
-    transform-origin: 0% 0%;
+    transform-origin: 0 0;
     transform: translate(0, -100%);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 
@@ -531,7 +527,6 @@ li:hover .aroow{
     animation-duration: 9s  ;
     text-align: center;
     animation-iteration-count: infinite;
-    opacity: 0;
     z-index: 1;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
@@ -550,7 +545,6 @@ li:hover .aroow{
 .section1{
     width: 100%;
     height: 600px;
-    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -607,11 +601,11 @@ li:hover .aroow{
     font-size: 20px;
 }
 
-.text7 p1{
-    color: #8d8b8b;
-    line-height: 30px;
-    display: block;
-}
+/*.text7 p1{*/
+/*    color: #8d8b8b;*/
+/*    line-height: 30px;*/
+/*    display: block;*/
+/*}*/
 
 .text3 p{
     color: white;
@@ -619,15 +613,15 @@ li:hover .aroow{
     font-size: 20px;
 }
 
-.text3 p1{
-    color: #8d8b8b;
-    line-height: 30px;
-    display: block;
-}
-.text3 p2{
-    color: white;
-    line-height: 30px;
-}
+/*.text3 p1{*/
+/*    color: #8d8b8b;*/
+/*    line-height: 30px;*/
+/*    display: block;*/
+/*}*/
+/*.text3 p2{*/
+/*    color: white;*/
+/*    line-height: 30px;*/
+/*}*/
 
 .text4{
     width: 100%;
@@ -642,19 +636,19 @@ li:hover .aroow{
     line-height: 30px;
     font-size: 20px;
 }
-.text4 p1{
-    color: #8d8b8b;
-    line-height: 30px;
-    display: block;
-}
-.text4 p2{
-    color: white;
-    line-height: 30px;
-}
-.text3 p:hover, .text3 p1:hover, .text3 p2:hover, .text4 p:hover, .text4 p1:hover, .text4 p2:hover, .text6 p:hover, .text7 p:hover,.text7 p1:hover{
-    cursor: pointer;
-    color: rgb(141, 141, 97);
-}
+/*.text4 p1{*/
+/*    color: #8d8b8b;*/
+/*    line-height: 30px;*/
+/*    display: block;*/
+/*}*/
+/*.text4 p2{*/
+/*    color: white;*/
+/*    line-height: 30px;*/
+/*}*/
+/*.text3 p:hover, .text3 p1:hover, .text3 p2:hover, .text4 p:hover, .text4 p1:hover, .text4 p2:hover, .text6 p:hover, .text7 p:hover,.text7 p1:hover{*/
+/*    cursor: pointer;*/
+/*    color: rgb(141, 141, 97);*/
+/*}*/
 .text7 a{
     text-decoration: none;
 }
@@ -721,12 +715,12 @@ li:hover .aroow{
     border-radius: 15px;
 }
 
-.menu ul li p1{
-    transition: width 2s, height 2s, transform 1s;
-}
-.menu ul li p1:hover{
-    transform: rotate(90deg);
-}
+/*.menu ul li p1{*/
+/*    transition: width 2s, height 2s, transform 1s;*/
+/*}*/
+/*.menu ul li p1:hover{*/
+/*    transform: rotate(90deg);*/
+/*}*/
 
 /*header*/
 @media screen and (max-width:2000px) {
@@ -1081,9 +1075,9 @@ li:hover .aroow{
     .text3 p{
         font-size: 15px;
     }
-    .text3 p2{
-        font-size: 13px;
-    }
+    /*.text3 p2{*/
+    /*    font-size: 13px;*/
+    /*}*/
     .form input[type="submit"]{
         width: 180px;
         height: 30px;
@@ -1097,9 +1091,9 @@ li:hover .aroow{
     .text3 p{
         font-size: 12px;
     }
-    .text3 p2{
-        font-size: 11px;
-    }
+    /*.text3 p2{*/
+    /*    font-size: 11px;*/
+    /*}*/
     .form input[type="submit"]{
         width: 150px;
         height: 30px;
@@ -1347,17 +1341,17 @@ ul a:hover{
 
     z-index: 99;
 
-    transform-origin: 4px 0px;
+    transform-origin: 4px 0;
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 .menu7 span:first-child {
-    transform-origin: 0% 0%;
+    transform-origin: 0 0;
 }
 
 .menu7 span:nth-last-child(2) {
-    transform-origin: 0% 100%;
+    transform-origin: 0 100%;
 }
 
 
@@ -1393,7 +1387,7 @@ ul a:hover{
     -webkit-font-smoothing: antialiased;
     z-index: 9;
 
-    transform-origin: 0% 0%;
+    transform-origin: 0 0;
     transform: translate(0, -100%);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 
@@ -1491,13 +1485,9 @@ li:hover .aroow{
 .images-saline1 a{
     text-decoration: none;
 }
-.images-saline1 p, p1{
-    color: #ffffff;
-}
-@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
-
-
-
+/*.images-saline1 p, p1{*/
+/*    color: #ffffff;*/
+/*}*/
 
 
 .wrapper{
@@ -1511,8 +1501,8 @@ li:hover .aroow{
 }
 .bay7{
     transition: all .05s;
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
 }
 .images-saline1:hover  .bay7{
     width: 15px;
@@ -1551,7 +1541,6 @@ li:hover .aroow{
     font-size: 18px;
     color: white;
     background: rgb(129, 113, 19);
-    transition: 1s;
     box-shadow: 6px 6px 0 black;
     transform: skewX(-15deg);
     transition: all .3s;
@@ -1570,7 +1559,7 @@ li:hover .aroow{
 
 .cta span:nth-child(2) {
     transition: 0.5s;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .cta:hover  .span1:nth-child(2) {
@@ -1681,11 +1670,11 @@ path.two {
     font-size: 20px;
 }
 
-.text10 p1{
-    color: #8d8b8b;
-    line-height: 30px;
-    display: block;
-}
+/*.text10 p1{*/
+/*    color: #8d8b8b;*/
+/*    line-height: 30px;*/
+/*    display: block;*/
+/*}*/
 
 .text3 p{
     color: white;
@@ -1693,15 +1682,15 @@ path.two {
     font-size: 20px;
 }
 
-.text3 p1{
-    color: #8d8b8b;
-    line-height: 30px;
-    display: block;
-}
-.text3 p2{
-    color: white;
-    line-height: 30px;
-}
+/*.text3 p1{*/
+/*    color: #8d8b8b;*/
+/*    line-height: 30px;*/
+/*    display: block;*/
+/*}*/
+/*.text3 p2{*/
+/*    color: white;*/
+/*    line-height: 30px;*/
+/*}*/
 
 .text4{
     width: 100%;
@@ -1716,19 +1705,19 @@ path.two {
     line-height: 30px;
     font-size: 20px;
 }
-.text4 p1{
-    color: #8d8b8b;
-    line-height: 30px;
-    display: block;
-}
-.text4 p2{
-    color: white;
-    line-height: 30px;
-}
-.text3 p:hover, .text3 p1:hover, .text3 p2:hover, .text4 p:hover, .text4 p1:hover, .text4 p2:hover, .text6 p:hover, .text10 p:hover, .text10 p1:hover{
-    cursor: pointer;
-    color: rgb(141, 141, 97);
-}
+/*.text4 p1{*/
+/*    color: #8d8b8b;*/
+/*    line-height: 30px;*/
+/*    display: block;*/
+/*}*/
+/*.text4 p2{*/
+/*    color: white;*/
+/*    line-height: 30px;*/
+/*}*/
+/*.text3 p:hover, .text3 p1:hover, .text3 p2:hover, .text4 p:hover, .text4 p1:hover, .text4 p2:hover, .text6 p:hover, .text10 p:hover, .text10 p1:hover{*/
+/*    cursor: pointer;*/
+/*    color: rgb(141, 141, 97);*/
+/*}*/
 .text10 a{
     text-decoration: none;
 }
@@ -1795,12 +1784,12 @@ path.two {
     border-radius: 15px;
 }
 
-.menu ul li p1{
-    transition: width 2s, height 2s, transform 1s;
-}
-.menu ul li p1:hover{
-    transform: rotate(90deg);
-}
+/*.menu ul li p1{*/
+/*    transition: width 2s, height 2s, transform 1s;*/
+/*}*/
+/*.menu ul li p1:hover{*/
+/*    transform: rotate(90deg);*/
+/*}*/
 @media screen and (max-width:1280px) {
     .header1 {
         display: flex;
@@ -2094,9 +2083,9 @@ path.two {
     .text3 p{
         font-size: 15px;
     }
-    .text3 p2{
-        font-size: 13px;
-    }
+    /*.text3 p2{*/
+    /*    font-size: 13px;*/
+    /*}*/
     .form input[type="submit"]{
         width: 180px;
         height: 30px;
@@ -2110,9 +2099,9 @@ path.two {
     .text3 p{
         font-size: 12px;
     }
-    .text3 p2{
-        font-size: 11px;
-    }
+    /*.text3 p2{*/
+    /*    font-size: 11px;*/
+    /*}*/
     .form input[type="submit"]{
         width: 150px;
         height: 30px;
@@ -2180,12 +2169,12 @@ path.two {
     border-radius: 15px;
 }
 
-.menu ul li p1{
-    transition: width 2s, height 2s, transform 1s;
-}
-.menu ul li p1:hover{
-    transform: rotate(90deg);
-}
+/*.menu ul li p1{*/
+/*    transition: width 2s, height 2s, transform 1s;*/
+/*}*/
+/*.menu ul li p1:hover{*/
+/*    transform: rotate(90deg);*/
+/*}*/
 
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
